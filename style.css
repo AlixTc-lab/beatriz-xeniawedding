@@ -59,6 +59,23 @@ section{
     transform:translateY(0);
 }
 
+.fondo{
+    background:rgba(255,255,255,.45);
+
+    padding:25px;
+
+    border-radius:25px;
+
+    min-width:130px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.10);
+
+    animation:floatTimer 4s ease-in-out infinite;
+}
+
+
+
+
 /* =========================
    HERO
 ========================= */
@@ -164,7 +181,7 @@ section{
 
 .letter-card{
     max-width:850px;
-    background:white;
+     background: url('f1.png') center/cover no-repeat;
     padding:60px;
     border-radius:24px;
     box-shadow:0 15px 40px rgba(0,0,0,.08);
@@ -237,6 +254,7 @@ section{
     max-width:900px;
     margin:auto;
     text-align:center;
+    background: url(f1.png) center/cover no-repeat;
 }
 
 .location-card img{
@@ -249,7 +267,7 @@ section{
 
 .location-card h3{
     font-size:2.5rem;
-    color:var(--champagne);
+    color:var(--olive2);
 }
 
 .location-card p{
@@ -261,7 +279,7 @@ section{
     display:inline-block;
     padding:16px 36px;
     border-radius:50px;
-    background:var(--olive);
+    background:var(--olive2);
     color:white;
     text-decoration:none;
     transition:.4s;
@@ -285,6 +303,7 @@ section{
     padding:60px;
     border-radius:24px;
     box-shadow:0 15px 40px rgba(0,0,0,.08);
+     background: url(f1.png) center/cover no-repeat;
 }
 
 .dress-icon{
@@ -296,7 +315,7 @@ section{
 .dress-card h3{
     font-size:2.5rem;
     margin-bottom:20px;
-    color:var(--olive);
+    color:var(--olive2);
 }
 
 .dress-card p{
@@ -315,12 +334,12 @@ section{
     max-width:800px;
     margin:auto auto 40px;
     line-height:2;
-    color:var(--champagne)
+    color:var(--olive2);
 }
 
 .whatsapp-btn{
     display:inline-block;
-    background:#25D366;
+    background:var(--olive2);
     color:white;
     padding:20px 45px;
     border-radius:50px;
@@ -346,7 +365,7 @@ section{
     justify-content:center;
     text-align:center;
     color:white;
-     background: url('time.jpeg') center/cover no-repeat;
+     background: url('time.jpg') center/cover no-repeat;
 
 }
 
@@ -475,6 +494,8 @@ footer{
     opacity: 0.8;
     animation: fall linear infinite;
     box-shadow: 0 0 6px var(--champagne);
+
+    
 }
 
 /* animación caída */
